@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O primeiro site do HOMEM</title>
+    <style>
+        body{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-image: linear-gradient(to left, rgb(20,147,220), rgb(17,54,71));
+        }
+        .box{
+            color: white;
+            position: absolute;
+            top: -15%;
+            left: 13%;
+            transform: translate(-50%, 50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 16px;
+            border-radius: 20px;
+            width: 20%;
+        }
+        fieldset{
+            border: 3px solid rgba(24, 51, 230, 0.805);
+        }
+        legend{
+            border: 1px solid rgb(8, 101, 144);
+            text-align: center;
+            background-color: rgb(8, 101, 144);
+            border-radius: 10px;
+            color: white;
+        }
+        .inputBox{
+            position: relative;
+        }
+        .labelInput{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b> 3 motivos para te amar :) </b></legend>
+                <br>
+                <div class="inputBox">
+                    <label for="nome">1- Você é a pessoa mais doce do mundo;</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <label for="nome">2- Você sempre está cheirosa;</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <label for="nome">3- Você me faz um bem danado!</label>
+                <br>
+                    <p><b>Porque eu escolhi você: </b></p>
+                    <input type="radio" id="Primeira" name="Escolha1" values="Muito gata" required>
+                    <label for="Muito gata">Muito Gata</label>
+                    <br>
+                    <input type="radio" id="Segunda" name="Escolha2" values="Muito Delícia" required>
+                    <label for="Muito Delícia">Muito Delícia</label>
+                    <br>
+                    <input type="radio" id="Terceira" name="Escolha3" values="PerfeitaSemDefeitos" required>
+                    <label for="PerfeitaSemDefeitos">Perfeita sem defeitos</label>
+                    <br>
+                    <input type="radio" id="Terceira" name="Escolha4" values="TodasOpções" required>
+                    <label for="TodasOpções">Todas as opções acima</label>
+                    <br>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
